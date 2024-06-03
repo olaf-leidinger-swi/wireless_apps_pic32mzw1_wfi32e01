@@ -2,14 +2,14 @@
 
 manifest_file_version: 1.0.0
 project: ota_bootloader_wolfcrypt
-creation_date: 2024-04-05T11:03:54.367+05:30[Asia/Calcutta]
+creation_date: 2024-06-03T15:27:31.835+02:00[Europe/Berlin]
 operating_system: Windows 10
 mcc_mode: IDE
 mcc_mode_version: v6.20
 device_name: PIC32MZ1025W104132
 compiler: XC32 4.35
-mcc_version: 5.5.0
-mcc_core_version: 5.7.0
+mcc_version: 5.5.1
+mcc_core_version: 5.7.1
 content_manager_version: 5.0.0
 is_mcc_offline: false
 is_using_prerelease_versions: false

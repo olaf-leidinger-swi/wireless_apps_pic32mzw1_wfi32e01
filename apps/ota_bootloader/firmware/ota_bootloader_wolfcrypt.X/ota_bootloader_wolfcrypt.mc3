@@ -1,4 +1,4 @@
-<config configName="pic32mz_w1_curiosity_wolfcrypt" projectName="ota_bootloader_wolfcrypt" configVersion="1.1" device="PIC32MZ1025W104132" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.0">
+<config configName="pic32mz_w1_curiosity_wolfcrypt" projectName="ota_bootloader_wolfcrypt" configVersion="1.1" device="PIC32MZ1025W104132" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -188,7 +188,7 @@
         &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;core&quot; x=&quot;233&quot; y=&quot;261&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;dfp&quot; x=&quot;308&quot; y=&quot;261&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;drv_memory&quot; x=&quot;607&quot; y=&quot;6&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;drv_sst26&quot; x=&quot;383&quot; y=&quot;23&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;drv_sst26&quot; x=&quot;383&quot; y=&quot;22&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;lib_wolfcrypt&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;nvm&quot; x=&quot;33&quot; y=&quot;308&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;spi1&quot; x=&quot;191&quot; y=&quot;46&quot;/&gt;
@@ -829,7 +829,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_w1_curiosity_wolfcrypt\exceptions.c</file>
-         <hash>e2fd9e990c04c36dc7a93ef49e819ce0ea8c6a5ebb8bbb21a40955318ddd2118</hash>
+         <hash>30b880390be9495d817d130a99612cbe4a21ce5f953a22bf77fc97872b770538</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_w1_curiosity_wolfcrypt\initialization.c</file>
@@ -905,7 +905,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_w1_curiosity_wolfcrypt\peripheral\nvm\plib_nvm.c</file>
-         <hash>8f9c4847fe39537770fcd2e9bdf2c316197228da667ecde963de89f872510097</hash>
+         <hash>2c76bbe9158bbd7c7f4b62009e73f95d6e0668ea389c46ec03cc2ebd0df48584</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_w1_curiosity_wolfcrypt\peripheral\nvm\plib_nvm.h</file>
@@ -957,7 +957,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_w1_curiosity_wolfcrypt\system\debug\sys_debug.h</file>
-         <hash>6dc7375ac05501951020122a9baa63e17e9331e11423c70c8ddd3c0944fd632c</hash>
+         <hash>5c34d947b4d700829a89d9d7616d941fa9e17047c67adc6de4d365b0a8ce39f4</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_w1_curiosity_wolfcrypt\system\fs\fat_fs\file_system\ff.c</file>
