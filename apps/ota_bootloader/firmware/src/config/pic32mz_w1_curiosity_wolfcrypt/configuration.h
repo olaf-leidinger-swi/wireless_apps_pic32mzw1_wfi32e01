@@ -178,7 +178,10 @@ extern "C" {
 #define HAVE_ECC
 #define NO_DH
 #define NO_DSA
+// OL: Silence warning about redefinition
+#ifndef FP_MAX_BITS
 #define FP_MAX_BITS 4096
+#endif
 #define USE_CERT_BUFFERS_2048
 #define NO_DEV_RANDOM
 #define WC_NO_RNG
@@ -198,6 +201,11 @@ extern "C" {
 // *****************************************************************************
 // *****************************************************************************
 
+// OL: Enable for debug output
+#define SYS_OTA_APPDEBUG_ENABLED
+
+// OL: Use for development
+#define FACTORY_IMAGE_BACKUP_DISABLE
 
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus
